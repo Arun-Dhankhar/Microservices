@@ -1,0 +1,5 @@
+package com.example.microservices.CurrencyConvertion;
+
+public class GlobalExceptions {
+
+}

@@ -1,0 +1,2 @@
+insert into currency_exchange(conversion_multiple,id, currency-from, currency-to, environment )
+values(65,1000L,USD,INR,'');

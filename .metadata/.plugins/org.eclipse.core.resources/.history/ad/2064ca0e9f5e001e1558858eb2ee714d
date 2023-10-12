@@ -1,0 +1,14 @@
+package com.example.microservices.CurrencyConvertion;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+@ControllerAdvice
+public class GlobalExceptions extends RuntimeException {
+	GlobalExceptions(){
+		super();
+	}
+            @ExceptionHandler(Exception.class)
+            public void exceptionHandler(Exception ex) {
+            	System.out.println("oops something went wrong ");
+            }
+}
